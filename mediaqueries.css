@@ -1,0 +1,116 @@
+/* Tablet and smaller desktops */
+@media screen and (max-width: 1200px) {
+    #header .nav-links {
+        display: none; /* Hide main nav, typically replaced by hamburger */
+    }
+
+    #header .logo {
+        font-size: 1.5rem;
+    }
+
+    .section-container {
+        flex-direction: column;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-details-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .details-container {
+        width: 45%;
+    }
+
+    .experience-details-container {
+        align-items: center;
+    }
+
+    .experience-sub-title {
+        text-align: center;
+    }
+
+    .about-containers {
+        margin-top: 0;
+    }
+
+    .projects-section .about-containers {
+        flex-direction: column;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .contact-info-upper-container {
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    #header {
+        height: 10vh;
+    }
+
+    .hero-section {
+        height: 80vh;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content .section__text__p2 {
+        font-size: 1.2rem;
+    }
+
+    .profile-picture {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .btn-container {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%; /* Full width buttons on small screens */
+    }
+
+    .arrow {
+        display: none; /* Hide arrow on very small screens */
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .details-container {
+        width: 100%; /* Stack details on small screens */
+    }
+
+    .text-container p {
+        font-size: 0.9rem;
+    }
+
+    article {
+        width: 8rem; /* Make skills smaller */
+    }
+
+    .contact-info-container p {
+        font-size: medium;
+    }
+}
